@@ -1,4 +1,4 @@
-# emplate-based Crystal Structure Substitution Generator
+# Template-based Crystal Structure Substitution Generator
 
 A pymatgen-based tool to generate candidate crystal structures by substituting elements on Wyckoff sites or original element groups from predefined structural templates.
 
@@ -75,6 +75,11 @@ sub.get_templates_from_composition(
 - `atom_num_match`: `True` requires exact total atom match; `False` allows integer multiples
 - `set_num_match`: `True` requires exact match of unique-site / element count; `False` allows template count ≥ target
 - `save_path`: Root directory to write output VASP files
+
+
+## Citation
+
+If you use this code in your research, please cite pymatgen and the corresponding DLS volume predictor work.
 
 ## License
 
