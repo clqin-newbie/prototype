@@ -19,6 +19,7 @@ This code performs template-matching and site substitution for crystal structure
 
 ```
 pip install pymatgen numpy pandas
+tar -zxvf template/template.tar.gz
 ```
 
 Python ≥ 3.8 recommended.
